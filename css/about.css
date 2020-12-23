@@ -1,0 +1,88 @@
+body {
+    background-image: url('../img/emilia-about.jpg');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans';
+    background-position: 0 20vh;
+}
+h1 {
+    font-family: 'Raleway';
+    font-size: 30px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p.header{
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, .5);
+    text-align: right;
+    padding: 10px 0;
+    font-size: 18px;
+}
+p.header a{
+    transition: all .4s;
+}
+p.header a:hover{
+    font-weight: bold;
+    font-size: 20px;
+}
+p.redes {
+    text-align: right;
+    font-size: 18px;
+}
+p.redes a{
+    transition: all .4s;
+}
+p.redes a:hover{
+    font-size: 23px;
+}
+p.cita {
+    color: #1c9a85;
+    font-family: 'Raleway';
+    margin-left: 10px;
+}
+p.primaria {
+    font-size: 19px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+p.secundaria {
+    font-size: 17px;
+    margin-top: 10px;
+    
+}
+p.ultima {
+    margin-top: 30px;
+}
+
+@media(min-width:768px){
+    body {
+        background-size: 80%;
+        background-position: right 0vh;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    p.primaria {
+        font-size: 19px;
+        margin-top: 25px;
+    }
+    
+}
+@media(min-width:1024px){
+    body {
+        background-size: 80%;
+        background-position: right 0vh;
+    }
+    h1 {
+        font-size: 50px;
+        margin-top: 90px;
+    }
+    p.primaria {
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+}

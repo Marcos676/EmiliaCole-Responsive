@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+body{
+    background-image: url('../img/emilia-home.jpg');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 0px 20vh;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.home header{
+    padding: 0 15px;
+} 
+
+.home header h2{
+    margin-top: 15px;
+}
+
+.home nav ul.menu{
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, .5);
+    text-align:right;
+    padding: 10px 0;
+}
+.home nav ul.redes{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.home main h1{
+    margin-top: 250px;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 15px;
+}
+/* TABLET */
+@media(min-width:768px){
+    body{
+        background-size: 100%;
+        }
+}
+/* DESKTOP */
+@media(min-width:1024px){
+    body{
+        background-size: 75%;
+        background-position: right top;
+        margin-left: 30px;
+    }
+    li{
+        display: block;
+        text-align: left;
+    }
+    .home nav ul{
+        margin-left: 20px;
+    }
+
+    .home nav ul.menu{
+        background-color:initial;
+    }
+
+    .home nav ul.redes{
+        text-align: left;
+    }
+    .home nav ul.redes li{
+        display: inline;
+    }
+    .home header h2{
+        position: absolute;
+        top: 250px;
+    }
+    .home main h1{
+        margin-top: 200px;
+        margin-left: -40px;
+        font-size: 3em;
+    }
+}
